@@ -1,0 +1,182 @@
+body {
+    background-image: url(https://rare-gallery.com/uploads/posts/5382150-sea-ocean-coast-beach-drone-view-aerial-view-topdown-water-sand-yellow-minimal-relax-vacation-travel-clean-wash-shore-view-top-drone-creative-commons-images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: #0031bc85;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    height: 5mm;
+}
+
+.menu-item {
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.menu {
+    float: left;
+    width: 45%;
+}
+
+.logo {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.search {
+    float: left;
+    width: 26%;
+}
+
+.search input[type=search] {
+    width: 300px;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+    padding: 20px;
+}
+
+.search button {
+    background-color: #0074D9;
+    color: #f2f2f2;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+    float: right;
+}
+
+.content {
+    color: white;
+    max-width: 400px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+aside {
+    position: absolute;
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 5%;
+}
+
+.social ul li {
+    padding: 10px;
+}
+
+.social ul li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.social .fa {
+    font-size: 40px;
+}
+
+.content {
+    margin-left: 10%;
+    width: 50%;
+    float: left;
+}
+
+.our-team {
+    font-size: 25px;
+}
+
+
+.contact-form label {
+    color: white;
+}
+
+.contact-form input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.contact-form input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contact-form {
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    float: right;
+}
+
+#recommendations {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 50%;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    float: right;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card .description {
+    padding: 10px;
+}
+
+.card .country-time {
+    font-weight: 700;
+}

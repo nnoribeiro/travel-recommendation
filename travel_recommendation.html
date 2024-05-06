@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div id="home">
+            <div class="logo">
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/location-travel-map/travel-icon.png" alt="logo" />
+                <div style="clear:both;"></div>
+            </div>
+            <div class="menu">
+                <a class="menu-item" href="travel_recommendation.html">Home</a>
+                <a class="menu-item" href="travel_recommendation_about.html">About us</a>
+                <a class="menu-item" href="#contact-us">Contact us</a>
+            </div>
+
+            <div class="search">
+                <input type="search" id="search-input" name="q" placeholder="Search by destination or keyword" />
+                <button id="search-btn" onclick="handleSearch()">Search</button>
+                <button id="clear-btn" onclick="clearRecommendations()">Clear</button>
+            </div>
+        </div>
+    </nav>
+    <aside>
+        <div class="social">
+            <ul>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-youtube"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+            </ul>
+        </div>
+    </aside>
+    <section>
+        <div class="content">
+            <h1 class="title">Find your dream destination</h1>
+            <h2 class="subtitle">
+                Embark on your next adventure with ease using our innovative vacation destination search platform.
+            </h2>
+        </div>
+        <div id="recommendations"></div>
+    </section>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+
+</html>
